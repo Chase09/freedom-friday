@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Freedom Friday</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet1.css" />
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="file:///D:/webdevelopment/freedom-friday/freedomfriday.html">Home</a>
+        <a href="file:///D:/webdevelopment/freedom-friday/freedomfridayiframes.html">Iframes</a>
+        <a href="file:///D:/webdevelopment/freedom-friday/otherstuff.html">Other</a>
+        <a href="https://www.google.com">About</a>
+    </div>
+
+
+    <div class="dropdown">
+        <span>Hover over me</span>
+        <div class="dropdown-content">
+            <a href="https://www.google.com">Google Chrome</a>
+            <a href="https://www.youtube.com">Youtube</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="login">
+        <button class="button" onclick="document.getElementById('id01').style.display='block'">Login</button>
+        <button class="button" onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+    </div>
+    
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+              class="close" title="Close Modal">&times;</span>
+
+       
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <img src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png" alt="Avatar" class="image">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="button2" type="submit">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button class="button2" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+
+
+
+    <div id="id01" class="modal">
+        <span onclick="document.getElementById('id01').style.display='none'"
+              class="close" title="Close Modal">&times;</span>
+
+        <form class="modal-content animate" action="/action_page.php">
+            <div class="imgcontainer">
+                <img src="http://www.hotavatars.com/wp-content/uploads/2019/01/I80W1Q0.png" alt="Avatar" class="image">
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="uname" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button class="button2" type="submit">Sign Up</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button class="button2" type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+    </div>
+    <h1><u><b>Freedom Friday</b></u></h1>
+    <p>
+        On this page for my freedom firday project I learned how to make a drop down menu with css and how to create a login/sign up button.
+        I also learned how to create a navigation bar as you can see on the top of the screen.
+        On the iframe page I will just be showing the things I already know about iframes.
+        On the navigation bar if you click the other button it will show the other things I learned with HTML and css.
+        If you click the about button on the navigation bar it will send you to google because I didn't know what else to add.
+
+    </p>
+</body>
+</html>

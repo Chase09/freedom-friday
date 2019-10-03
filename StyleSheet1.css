@@ -1,0 +1,314 @@
+﻿body {
+
+}
+
+.button{
+    width:100px;
+    height:50px;
+    background-color:#4CAF50;
+    text-align:center ;
+    font-size:10px;
+    border-radius:20px;
+    color:white;
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; 
+}
+
+.div{
+    text-align:right;
+    height:0px;
+}
+
+.div2{
+    height:0px;
+}
+.button2{
+    background-color:#d100c6;
+    text-align:center ;
+    font-size:10px;
+    border-radius:20px;
+    color:white;
+    width:80px;
+    height:40px;
+}
+
+.button2:hover{
+    background-color: white;
+    color: black;
+    border: 2px solid #d100c6; 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  text-align:right;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block ;
+}
+
+
+
+select {
+  width: 150px;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+
+.topnav {
+  background-color:#7d7d7d;
+  overflow: hidden;
+  border-radius:15px;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+
+}
+
+
+
+
+
+
+
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4); 
+  padding-top: 60px;
+}
+
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+input[type=text] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+input[type=password ] {
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 300px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+
+.image{
+    height:132px;
+    width:120px;
+}
+
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+
+
+
+
+
+
+
+
+
+
+* {box-sizing:border-box}
+
+.container {
+  width: 100%;
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+
+.html {width: 40%; background-color: #4CAF50;} 
+.css {width: 60%; background-color: dodgerblue ;} 
+.js {width: 0%; background-color: #f44336;} 
+.php {width: 0%; background-color: #808080;} 
+
+
+
+
+.login{
+    text-align:right;
+    height:0px;
+}
+
+.vertical-menu {
+  width: 300px;
+}
+
+.vertical-menu a {
+  background-color:#7d7d7d; 
+  color: white; 
+  display: block; 
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.vertical-menu a:hover {
+  background-color: #4CAF50; 
+  color: white;
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; 
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+
+.flip-card-front {
+  background-color: white;
+  color: black;
+}
+
+.flip-card-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.div3{
+    height:0px;
+    width:100%;
+    text-align:left;
+}
+
+
+
+
+
+
+
+
